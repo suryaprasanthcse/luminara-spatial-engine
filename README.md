@@ -8,6 +8,10 @@ You point the phone at the floor, then scan cards. Each card opens the next part
 
 LUMINARA started as a prototype at the Funobotz Discovery World hackathon, where entries had to register as a team of three. The three-act game in this repository is my own build: I designed it and directed the work, and Claude Code (Anthropic) wrote the code.
 
+## Acknowledgement
+
+The five card faces and the Petalo artwork come from the Funobotz Discovery World hackathon kit. The spatial engine architecture, the act mechanics and the three-act game loop were built independently by me.
+
 ## What's inside
 
 - **GPU boid swarm** (`Assets/BoidSwarmEngine/CurlSwarm`): simulated in a compute shader and drawn with one indirect draw call. It uses no per-agent GameObjects and reads nothing back to the CPU. The default size is 16,384 agents.
