@@ -1,0 +1,11 @@
+Copyright (c) 2026 Surya Prasanth R (Sovereign Dynamics). All rights reserved.
+
+This repository may be viewed. No permission is granted to copy, modify, distribute
+or otherwise use its code or assets without written permission from the copyright holder.
+
+Excluded from this notice, and remaining the property of their owners:
+
+- Funobotz kit imagery provided with the Funobotz Discovery World hackathon:
+  Assets/all_knowing_eye.jpg, Assets/joker.jpg, Assets/king of spades.jpeg,
+  Assets/queen_of_hearts.jpg, Assets/valentoro.jpg, Assets/petalo_transparent.png
+- Unity packages listed in Packages/manifest.json, under their own licences.

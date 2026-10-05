@@ -1,16 +1,19 @@
 # LUMINARA
 
-An AR card-scanning puzzle game in three acts, built in Unity 6 by **Team Nandha - ML** for the Funobotz Discovery World hackathon.
+An AR card-scanning puzzle game in three acts, built in Unity 6 by **Surya Prasanth R** (Sovereign Dynamics).
 
-You point the phone at the floor, then scan cards from the Funobotz kit. Each card opens the next part of the world: the Keystone card, the Anchor card, then the climb to the Tholos. A swarm of boids (simple flocking agents) guides you, and it runs entirely on the GPU.
+You point the phone at the floor, then scan cards. Each card opens the next part of the world: the Keystone card, the Anchor card, then the climb to the Tholos. A swarm of boids (simple flocking agents) guides you, and it runs entirely on the GPU.
+
+## How it came to be
+
+LUMINARA started as a prototype at the Funobotz Discovery World hackathon, where entries had to register as a team of three. The three-act game in this repository is my own build: I designed it and directed the work, and Claude Code (Anthropic) wrote the code.
 
 ## What's inside
 
 - **GPU boid swarm** (`Assets/BoidSwarmEngine/CurlSwarm`): simulated in a compute shader and drawn with one indirect draw call. It uses no per-agent GameObjects and reads nothing back to the CPU. The default size is 16,384 agents.
 - **The three-act loop** (`Assets/BoidSwarmEngine/Hybrid`): `HybridLoopDirector` runs the acts, with card gates and the reactions that open doors, gates and arches.
 - **AR card tracking**: AR Foundation image tracking with 5 reference images (`Assets/AR_Targets.asset`).
-- **Editor tools** (`Assets/Editor`): scripts that build the AR rig, inject the targets, and assemble each phase's scene.
-- **Design documents** (`docs/`): the Phase 2 blueprint, the Phase 3 GDD, the technology and AI declarations, the known limitations, and the pitch draft.
+- **Editor tools** (`Assets/Editor`): scripts that build the AR rig, inject the targets, and assemble each scene.
 
 ## Open it
 
@@ -21,11 +24,8 @@ You point the phone at the floor, then scan cards from the Funobotz kit. Each ca
 
 **Target:** Android, ARM64, IL2CPP, OpenGL ES 3, minimum API 27.
 
-## Credits and rights
+## Rights
 
-- **Built by Team Nandha - ML:** [team members].
-- **AI use:** Anthropic Claude (through Claude Code) was used under team direction. See `docs/phase3/02_Technology_Asset_AI_Declarations.md` for exactly what it did.
-- **Funobotz kit imagery:** the five card faces and the Petalo cutout come from the hackathon-provided Funobotz kit. **Confirm the usage terms before making this repository public.**
-- **Everything else** (meshes, shaders, materials) was made by the team, or generated in the editor from Unity primitives.
-
-This project was separated out of a shared Unity project, `MAAYAI_Matrix_AR`, which also holds SYNAPSE-3D. Its development history stayed there. This repository starts from the final state.
+- **The code, scenes, shaders, materials and editor tools:** © 2026 Surya Prasanth R. All rights reserved. See `LICENSE`.
+- **The Funobotz kit imagery:** the five card faces (`all_knowing_eye.jpg`, `joker.jpg`, `king of spades.jpeg`, `queen_of_hearts.jpg`, `valentoro.jpg`) and the Petalo cutout (`petalo_transparent.png`) came with the hackathon's Funobotz kit. They belong to their owners and aren't covered by this copyright.
+- **Unity packages** keep their own licences.
