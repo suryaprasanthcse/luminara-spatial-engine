@@ -27,7 +27,7 @@ namespace MAAYAI.Swarm
         [SerializeField] int sortingOrder = 40;
 
         [Header("Watermark")]
-        [SerializeField] string watermark = "Team Nandha - ML";
+        [SerializeField] string watermark = "Sovereign Dynamics";
         [SerializeField, Min(0f)] float watermarkPulseHz = 0.4f;
 
         Font font;

@@ -5,7 +5,7 @@ using UnityEngine;
 
 /// <summary>
 /// Emits the Doric/Tuscan kit parametrically: meshes, LOD prefabs, marble material and a generated veining
-/// normal map. Everything here is team-created, which matters because the GDD's asset plan declares provenance.
+/// normal map. Everything here is generated in the editor, with no downloaded assets.
 ///
 /// The orders are lathe and extrusion forms - a fluted shaft is a radial profile, a cornice is a swept chamfer,
 /// an urn is a profile spun about Y - so they generate cleanly and parametrically. What does NOT generate is

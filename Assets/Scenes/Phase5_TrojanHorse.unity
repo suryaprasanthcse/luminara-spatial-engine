@@ -91971,7 +91971,7 @@ MonoBehaviour:
   gold: {r: 1, g: 0.8, b: 0.35, a: 1}
   muted: {r: 0.72, g: 0.78, b: 0.84, a: 1}
   sortingOrder: 40
-  watermark: Team Nandha - ML
+  watermark: Sovereign Dynamics
   watermarkPulseHz: 0.4
 --- !u!114 &1666285900
 MonoBehaviour:
