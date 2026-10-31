@@ -1,6 +1,6 @@
 # LUMINARA
 
-An AR card-scanning puzzle game in three acts, built in Unity 6 by **Surya Prasanth R** (Sovereign Dynamics).
+An AR card-scanning puzzle game in three acts, built in Unity 6 by **Surya Prasanth R**. Licensed under Apache-2.0.
 
 You point the phone at the floor, then scan cards. Each card opens the next part of the world: the Keystone card, the Anchor card, then the climb to the Tholos. A swarm of boids (simple flocking agents) guides you, and it runs entirely on the GPU.
 
@@ -30,6 +30,6 @@ The five card faces and the Petalo artwork come from the Funobotz Discovery Worl
 
 ## Rights
 
-- **The code, scenes, shaders, materials and editor tools:** © 2026 Surya Prasanth R. All rights reserved. See `LICENSE`.
+- **The code, scenes, shaders, materials and editor tools:** Copyright 2026 Surya Prasanth R, licensed under the [Apache License, Version 2.0](LICENSE).
 - **The Funobotz kit imagery:** the five card faces (`all_knowing_eye.jpg`, `joker.jpg`, `king of spades.jpeg`, `queen_of_hearts.jpg`, `valentoro.jpg`) and the Petalo cutout (`petalo_transparent.png`) came with the hackathon's Funobotz kit. They belong to their owners and aren't covered by this copyright.
 - **Unity packages** keep their own licences.
